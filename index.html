@@ -2,36 +2,75 @@
 <html>
 <head>
   <title>Google Homepage</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <center>
 
-      <div id="google-logo" style="height:233px;margin-top:89px">
-        <img alt="Google" src="https://www.google.co.uk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="padding-top:109px" width="272">
-        </div>
+  <div id="container">
+
+<!-- Header -->
+
+<nav id="nav">
+  <ul>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Store</a></li>
+    <li class="rightlink"><a id="signin" href="#">Sign In</a></li>
+    <li class="rightlink"><a href="#"><img class="googleapp" src="googleapps.png" alt="Google Apps"></a></li>
+    <li class="rightlink"><a href="#">Images</a></li>
+    <li class="rightlink"><a href="#">Gmail</a></li>
+  </ul>
+</nav>
+
+<div class="parent">
+
+<!-- Google Logo -->
+
+      <div id="google-logo">
+        <img class="logo" alt="Google" src="googlelogo.png">
+      </div>
+
+<!-- Search Box -->
 
       <form>
 
         <div id="search-field">
-          <input type="text" id="search box" class="center">
-                <a href="#">
-                <img src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png">
-              </a>
+          <input id="search-bar" type="text">
+          <a href="#"><img id="microphone" src="microphone.png" alt="Voice Search"></a>
         </div>
 
-        <div class="center search-buttons">
-          <input type="submit" value="Search" class="search-button">
-          <input type="submit" value="Other" class="search-button">
+<!-- Search Buttons -->
+
+        <div id="search-buttons">
+          <input type="submit" value="Google Search">
+          <input type="submit" value="I'm Feeling Lucky">
         </div>
 
       </form>
 
-      <div>
+</div>
+</div>
 
-    </div>
+<!-- Footer -->
+<footer>
 
-        </center>
+<div id="location">
+  <ul>
+    <li>United Kingdom</li>
+  </ul>
+</div>
 
+<div id="fbar">
+  <ul>
+    <li><a href="#">Advertising</a></li>
+    <li><a href="#">Business</a></li>
+    <li class="rightlink"><a href="#">Settings</a></li>
+    <li class="rightlink"><a href="#">Terms</a></li>
+    <li class="rightlink"><a href="#">Privacy</a></li>
+  </ul>
+</div>
+
+</footer>
 
 </body>
 </html>
