@@ -2,7 +2,7 @@
 
 Testing a git pull.
 
-# Chhck that the reference to your remote repo is correct
+# Check that the reference to your remote repo is correct
 git remote -v
 
 # Add changes for staging using git add
